@@ -1,0 +1,17 @@
+# LOGARITHM CALCULATOR
+
+import math
+
+print("Input your base")
+
+base = float(input())
+
+print("Input the number")
+
+
+number = float(input())
+
+answer = (math.log(number, base))
+
+print("Your answer is", "Log", round(answer))
+
